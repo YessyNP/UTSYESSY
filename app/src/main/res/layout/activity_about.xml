@@ -25,6 +25,7 @@
         android:id="@+id/imageView3"
         android:layout_width="133dp"
         android:layout_height="117dp"
+        android:onClick="handleKeajaiban"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/keajaiban" />
@@ -35,6 +36,7 @@
         android:layout_height="117dp"
         android:layout_marginEnd="12dp"
         android:layout_marginRight="12dp"
+        android:onClick="handleMakanan"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/imageView8"
         app:layout_constraintHorizontal_bias="0.555"
@@ -45,6 +47,7 @@
         android:id="@+id/imageView8"
         android:layout_width="124dp"
         android:layout_height="117dp"
+        android:onClick="handleAgama"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
