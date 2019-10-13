@@ -8,15 +8,14 @@ import android.view.View;
 
 
 import com.yessy.utsyessy.R;
-import com.yessy.utsyessy.fragments.SejarahFragments;
 
 public class MainActivity extends AppCompatActivity {
-    private SejarahFragments sejarahFragments;
+//    private SejarahFragments sejarahFragments;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        sejarahFragments = new SejarahFragments();
+//        sejarahFragments = new SejarahFragments();
     }
 
     public void HandleKebudayaanFragments(View view) {
