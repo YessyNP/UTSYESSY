@@ -10,6 +10,7 @@ import com.yessy.utsyessy.R;
 import com.yessy.utsyessy.fragments.AgamaFragments;
 import com.yessy.utsyessy.fragments.KeajaibanFragments;
 import com.yessy.utsyessy.fragments.MakananFragments;
+import com.yessy.utsyessy.fragments.MinumanFragment;
 
 public class AboutActivity extends AppCompatActivity {
 
@@ -36,6 +37,13 @@ public class AboutActivity extends AppCompatActivity {
     public void handleKeajaiban(View view) {
         FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
         fragmentTransaction.replace(R.id.about, new KeajaibanFragments(), "Keajaiban_FRAGMENT");
+        fragmentTransaction.addToBackStack(null);
+        fragmentTransaction.commit();
+    }
+
+    public void handleMinuman(View view) {
+        FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
+        fragmentTransaction.replace(R.id.about, new MinumanFragment(), "Keajaiban_FRAGMENT");
         fragmentTransaction.addToBackStack(null);
         fragmentTransaction.commit();
     }

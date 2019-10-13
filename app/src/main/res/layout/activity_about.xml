@@ -5,12 +5,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".activities.AboutActivity">
-<FrameLayout
-    android:id="@+id/about"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
 
-</FrameLayout>
+    <FrameLayout
+        android:id="@+id/about"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+    </FrameLayout>
 
     <TextView
         android:id="@+id/textView3"
@@ -27,8 +30,8 @@
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="133dp"
-        android:layout_height="117dp"
+        android:layout_width="86dp"
+        android:layout_height="84dp"
         android:onClick="handleKeajaiban"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -36,26 +39,36 @@
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="115dp"
-        android:layout_height="117dp"
+        android:layout_width="84dp"
+        android:layout_height="87dp"
         android:layout_marginEnd="12dp"
         android:layout_marginRight="12dp"
         android:onClick="handleMakanan"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/imageView8"
-        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintHorizontal_bias="0.131"
         app:layout_constraintStart_toEndOf="@+id/imageView3"
         app:srcCompat="@drawable/makanan" />
 
     <ImageView
         android:id="@+id/imageView8"
-        android:layout_width="124dp"
-        android:layout_height="117dp"
+        android:layout_width="96dp"
+        android:layout_height="80dp"
         android:onClick="handleAgama"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/imageView3"
         app:srcCompat="@drawable/agama" />
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="85dp"
+        android:layout_height="79dp"
+        android:onClick="handleMinuman"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageView8"
+        app:layout_constraintStart_toEndOf="@+id/imageView4"
+        app:srcCompat="@drawable/minuman" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
