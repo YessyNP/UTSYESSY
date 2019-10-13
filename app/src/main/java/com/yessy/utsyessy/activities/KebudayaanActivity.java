@@ -25,4 +25,8 @@ public class KebudayaanActivity extends AppCompatActivity {
         Intent intent = new Intent(this,BudayaActivity.class);
         startActivity(intent);
     }
+
+    public void handleBack3(View view) {
+        finish();
+    }
 }

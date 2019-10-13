@@ -7,11 +7,13 @@
     tools:context=".activities.SejarahActivity"
     android:background="@color/sejarah">
 
-    <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+<!--    <FrameLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        tools:layout_editor_absoluteX="0dp"-->
+<!--        tools:layout_editor_absoluteY="0dp">-->
 
-    </FrameLayout>
+<!--    </FrameLayout>-->
 
     <ImageView
         android:id="@+id/imageView6"
@@ -53,14 +55,12 @@
 
     <Button
         android:id="@+id/button_exit"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="40dp"
+        android:layout_width="97dp"
+        android:layout_height="57dp"
         android:onClick="handleExit"
         android:text="BACK"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
 
 
