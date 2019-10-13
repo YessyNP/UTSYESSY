@@ -46,7 +46,7 @@
         android:onClick="handleMakanan"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/imageView8"
-        app:layout_constraintHorizontal_bias="0.131"
+        app:layout_constraintHorizontal_bias="0.203"
         app:layout_constraintStart_toEndOf="@+id/imageView3"
         app:srcCompat="@drawable/makanan" />
 
@@ -68,6 +68,7 @@
         android:onClick="handleMinuman"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/imageView8"
+        app:layout_constraintHorizontal_bias="0.714"
         app:layout_constraintStart_toEndOf="@+id/imageView4"
         app:srcCompat="@drawable/minuman" />
 
