@@ -59,6 +59,7 @@
         android:layout_height="57dp"
         android:onClick="handleExit"
         android:text="BACK"
+        android:background="@color/button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />

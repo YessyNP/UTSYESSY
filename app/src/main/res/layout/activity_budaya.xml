@@ -208,6 +208,7 @@
         android:layout_marginRight="160dp"
         android:onClick="handleBack2"
         android:text="BACK"
+        android:background="@color/button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
